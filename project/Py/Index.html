@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+<script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    
+   <py-env>
+        - paths:
+        -/py/python/random_n.py
+    </py-env>
+</head>
+
+<body>
+    <h1>My First Heading</h1>
+    
+<h1>PyScript Python File Import</h1>
+        <py-script src="/py/python/our_script.py"></py-script>
+        <input type="number" id="test-input" name="file" />
+        <button type="button" id="test-button" pys-onclick="my_function">Test</button>
+        <p id="test-output"></p>
+
+   </py-script>
+
+</body>
+
+</html>
